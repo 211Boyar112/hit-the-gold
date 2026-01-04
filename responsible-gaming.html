@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>Responsible Gaming | hit-the-gold.com</title>
+  <meta name="description" content="Responsible Gaming information at hit-the-gold.com. Learn how to gamble responsibly, set limits, recognize risks, and find support resources. 18+ only." />
+  <link rel="canonical" href="https://hit-the-gold.com/responsible-gaming.html" />
+  <meta name="robots" content="index,follow" />
+
+  <link rel="icon" href="./images/favicon.png" type="image/png" />
+  <link rel="shortcut icon" href="./images/favicon.ico" />
+  <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
+
+  <style>
+    :root{
+      --bg:#0b0b12;
+      --card:#141427;
+      --text:#eaeaf2;
+      --muted:#b7b7c9;
+      --border:rgba(255,255,255,.10);
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --radius:16px;
+      --max:980px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:linear-gradient(180deg,#3f0a6b 0%, #21073a 30%, var(--bg) 100%);
+      color:var(--text);
+    }
+    a{color:inherit}
+    .container{max-width:var(--max);margin:0 auto;padding:0 16px}
+
+    .topbar{
+      position:sticky;top:0;z-index:50;
+      background:rgba(8,8,16,.72);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--border);
+    }
+    .topbar-inner{
+      display:flex;align-items:center;justify-content:space-between;
+      padding:10px 0;gap:12px;flex-wrap:wrap;
+    }
+    .brand{
+      display:flex;align-items:center;gap:10px;
+      font-weight:900;text-decoration:none;
+    }
+    .brand img{
+      width:34px;height:34px;border-radius:10px;
+      object-fit:cover;border:1px solid var(--border);
+    }
+    .nav{
+      display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+    }
+    .nav a{
+      text-decoration:none;
+      font-size:14px;color:var(--muted);
+      padding:8px 10px;border-radius:999px;border:1px solid transparent;
+      white-space:nowrap;
+    }
+    .nav a:hover{border-color:var(--border);color:var(--text)}
+    .badge18{
+      font-size:12px;font-weight:800;
+      padding:6px 10px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
+      background:rgba(0,0,0,.25);
+      color:var(--muted);
+      white-space:nowrap;
+    }
+
+    .card{
+      margin:16px 0;
+      background:rgba(20,20,39,.92);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+    .head{
+      padding:14px 16px;
+      border-bottom:1px solid var(--border);
+      background:linear-gradient(90deg, rgba(138,43,226,.25), rgba(255,209,26,.18));
+      font-weight:900;
+    }
+    .content{padding:16px}
+    h1{font-size:22px;margin:0 0 10px}
+    h2{font-size:16px;margin:18px 0 8px}
+    p,li{color:var(--muted);line-height:1.6;font-size:14px}
+    ul{padding-left:18px;margin:8px 0}
+
+    .note{
+      margin-top:12px;
+      padding:12px;
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:14px;
+      background:rgba(0,0,0,.18);
+      color:rgba(255,255,255,.75);
+      font-size:13px;
+      line-height:1.5;
+    }
+
+    footer{
+      margin-top:18px;
+      border-top:1px solid var(--border);
+      background:rgba(0,0,0,.18);
+      padding:18px 0;
+    }
+    .footer-links{
+      margin-top:10px;
+      display:flex;gap:10px;flex-wrap:wrap;
+      font-size:13px;
+      color:rgba(255,255,255,.75);
+    }
+    .dot{opacity:.5}
+
+    @media (max-width:600px){
+      .topbar-inner{flex-direction:column;align-items:flex-start}
+      .nav a{padding:6px 8px;font-size:13px}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-inner">
+        <a class="brand" href="./index.html">
+          <img src="./images/logo.png" alt="Hit the Gold" onerror="this.style.display='none'">
+          <span>Hit the Gold</span>
+        </a>
+        <div class="nav" aria-label="Navigation">
+          <a href="./index.html">Home</a>
+          <a href="./privacy-policy.html">Privacy</a>
+          <a href="./terms.html">Terms</a>
+          <a href="./disclaimer.html">Disclaimer</a>
+          <span class="badge18">18+ • Play responsibly</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="container">
+    <section class="card">
+      <div class="head">Responsible Gaming</div>
+      <div class="content">
+        <h1>Responsible Gaming</h1>
+
+        <p>
+          At <strong>hit-the-gold.com</strong>, we promote responsible gaming. This website provides informational content only
+          and may link to third-party operators. Gambling should be treated as entertainment, not as a way to make money.
+        </p>
+
+        <p><strong>Last updated:</strong> <span id="updated"></span></p>
+
+        <h2>1) Adults only (18+)</h2>
+        <p>
+          This website is intended for adults aged 18 or older (or the legal gambling age in your jurisdiction).
+          If you are underage, please leave the site.
+        </p>
+
+        <h2>2) Keep control</h2>
+        <ul>
+          <li>Set personal limits for time and spending.</li>
+          <li>Only gamble with money you can afford to lose.</li>
+          <li>Do not chase losses.</li>
+          <li>Take regular breaks.</li>
+        </ul>
+
+        <h2>3) Gambling risks</h2>
+        <p>
+          Gambling involves risk and can lead to financial loss. Outcomes are random and no strategy guarantees a win.
+          If gambling stops being enjoyable, it may be time to pause or stop.
+        </p>
+
+        <h2>4) Warning signs</h2>
+        <p>You may be at risk if you:</p>
+        <ul>
+          <li>spend more time or money than planned,</li>
+          <li>gamble to escape stress or problems,</li>
+          <li>feel pressure to recover losses quickly,</li>
+          <li>hide gambling activity from others.</li>
+        </ul>
+
+        <h2>5) Tools offered by operators</h2>
+        <p>
+          Many licensed gambling operators provide responsible gaming tools, such as:
+        </p>
+        <ul>
+          <li>deposit and loss limits,</li>
+          <li>session reminders,</li>
+          <li>cool-off or self-exclusion options.</li>
+        </ul>
+        <p>
+          Use these tools where available to stay in control.
+        </p>
+
+        <h2>6) Get help and support</h2>
+        <p>
+          If you feel gambling is becoming a problem, consider seeking professional help. The following organizations
+          provide information and support:
+        </p>
+        <ul>
+          <li><strong>BeGambleAware</strong> — gambleaware.org</li>
+          <li><strong>GamCare</strong> — gamcare.org.uk</li>
+          <li><strong>GAMSTOP</strong> — gamstop.co.uk</li>
+          <li><strong>Local support services</strong> in your country or region</li>
+        </ul>
+
+        <h2>7) Our role</h2>
+        <p>
+          We do not offer gambling services and cannot control how third-party operators manage accounts or limits.
+          Always review the responsible gaming policies of any operator you choose to use.
+        </p>
+
+        <div class="note">
+          <strong>Reminder:</strong> Gambling should be a form of entertainment. If it is no longer enjoyable or causes harm,
+          stopping and seeking support is a responsible decision.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="font-weight:900;">hit-the-gold.com</div>
+      <div class="footer-links" aria-label="Footer links">
+        <a href="./privacy-policy.html" rel="nofollow">Privacy Policy</a>
+        <span class="dot">•</span>
+        <a href="./terms.html" rel="nofollow">Terms</a>
+        <span class="dot">•</span>
+        <a href="./responsible-gaming.html" rel="nofollow">Responsible Gaming</a>
+        <span class="dot">•</span>
+        <a href="./disclaimer.html" rel="nofollow">Disclaimer</a>
+        <span class="dot">•</span>
+        <a href="./index.html">Home</a>
+      </div>
+      <p style="font-size:12px;color:rgba(255,255,255,.55);margin-top:10px;">
+        © <span id="y"></span> hit-the-gold.com • 18+ only
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+    const d = new Date();
+    const iso = d.toISOString().slice(0,10);
+    document.getElementById('updated').textContent = iso;
+  </script>
+</body>
+</html>
