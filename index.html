@@ -7,19 +7,19 @@
   <title>Hit the Gold Slot — Demo Guide, Features, RTP & Volatility</title>
   <meta name="description" content="Hit the Gold slot guide: what it is, how to play, key features, RTP & volatility notes, mobile tips, and an FAQ. 18+ only. Play responsibly." />
   <link rel="canonical" href="https://hit-the-gold.com/" />
-  <!-- Favicon -->
-  <link rel="icon" href="/images/favicon.png" type="image/png">
-  <link rel="shortcut icon" href="/images/favicon.ico" type="image/png">
-  <!-- iOS / Apple Touch Icon -->
-  <link rel="apple-touch-icon" href="/images/favicon.ico">
   <meta name="robots" content="index,follow" />
-  
+
+  <!-- Favicons -->
+  <link rel="icon" href="/images/favicon.png" type="image/png" />
+  <link rel="shortcut icon" href="/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
+
+  <!-- Open Graph -->
   <meta property="og:title" content="Hit the Gold Slot — Guide, Features, RTP & Volatility" />
   <meta property="og:description" content="Hit the Gold slot overview: gameplay, features, RTP & volatility notes, mobile play, and FAQ. 18+ only." />
   <meta property="og:url" content="https://hit-the-gold.com/" />
   <meta property="og:type" content="website" />
 
-  <!-- Minimal styling (simple + fast) -->
   <style>
     :root{
       --bg:#0b0b12;
@@ -43,6 +43,7 @@
     a{color:inherit;text-decoration:none}
     img{max-width:100%;display:block}
     .container{max-width:var(--max);margin:0 auto;padding:0 16px}
+
     .topbar{
       position:sticky;top:0;z-index:50;
       background:rgba(8,8,16,.72);
@@ -164,6 +165,7 @@
     }
     details summary::-webkit-details-marker{display:none}
     .details-body{padding:12px 14px;color:var(--muted);border-top:1px solid var(--border)}
+
     .grid2{
       display:grid;
       grid-template-columns: 1.6fr .9fr;
@@ -175,6 +177,7 @@
       .offerbar .right{text-align:left}
       .offerbar .mid{text-align:left}
     }
+
     .card{
       background:rgba(20,20,39,.92);
       border:1px solid var(--border);
@@ -189,6 +192,7 @@
     h3{font-size:15px;margin-top:14px}
     p,li{color:var(--muted);line-height:1.6;font-size:14px}
     ul{padding-left:18px;margin:8px 0}
+
     .kws{
       margin:10px 0 0;
       display:flex;gap:8px;flex-wrap:wrap;
@@ -200,6 +204,8 @@
       background:rgba(0,0,0,.20);
       color:rgba(255,255,255,.72);
     }
+
+    /* Main image block (now actually shows image + fallback) */
     .img-slot{
       margin:12px 0;
       background:linear-gradient(135deg, rgba(255,255,255,.06), rgba(0,0,0,.28));
@@ -211,13 +217,21 @@
       color:rgba(255,255,255,.55);
       font-weight:900;
       letter-spacing:.2px;
+      position:relative;
     }
     .img-slot img{width:100%;height:100%;object-fit:cover}
+    .img-fallback{
+      display:none;
+      padding:12px;
+      text-align:center;
+    }
+
     .table-wrap{overflow:auto;border:1px solid var(--border);border-radius:14px}
     table{width:100%;border-collapse:collapse;min-width:520px;background:rgba(0,0,0,.18)}
     th,td{padding:10px 12px;border-bottom:1px solid var(--border);text-align:left;font-size:14px}
     th{color:var(--text);font-weight:900;background:rgba(255,255,255,.04)}
     td{color:var(--muted)}
+
     .side{padding:12px}
     .side-title{font-weight:900;margin:4px 0 10px}
     .offer-list{display:grid;gap:10px}
@@ -239,8 +253,30 @@
     .offer .action{margin-top:8px}
     .offer .btn{min-width:auto;padding:8px 10px;border-radius:12px;font-size:13px}
     .hint{font-size:12px;color:rgba(255,255,255,.55);margin-top:8px}
+
     .faq details{margin-top:10px;border:1px solid var(--border);border-radius:14px;overflow:hidden;background:rgba(0,0,0,.16)}
     .faq summary{background:rgba(138,43,226,.18)}
+
+    /* Author block */
+    .author-box{
+      margin-top:16px;
+      padding:12px;
+      border:1px solid var(--border);
+      border-radius:14px;
+      background:rgba(0,0,0,.18);
+      display:flex;
+      gap:12px;
+      align-items:flex-start;
+    }
+    .author-box img{
+      width:56px;height:56px;border-radius:14px;
+      object-fit:cover;border:1px solid var(--border);
+      flex:0 0 auto;
+    }
+    .author-name{font-weight:900;color:var(--text)}
+    .author-meta{font-size:12px;color:rgba(255,255,255,.65);margin-top:2px}
+    .author-text{font-size:13px;color:var(--muted);line-height:1.55;margin-top:6px}
+
     footer{
       margin-top:18px;
       border-top:1px solid var(--border);
@@ -258,6 +294,13 @@
       color:rgba(255,255,255,.55);
       font-size:12px;font-weight:900;
     }
+    .footer-links{
+      margin-top:12px;
+      display:flex;gap:10px;flex-wrap:wrap;
+      color:rgba(255,255,255,.75);
+      font-size:13px;
+    }
+    .dot{opacity:.5}
   </style>
 </head>
 
@@ -287,7 +330,7 @@
   <div class="hero">
     <div class="container">
       <div class="hero-card">
-        <div class="hero-head">Hit the Gold Slot (Hit the Gold)</div>
+        <div class="hero-head">Hit the Gold Slot</div>
 
         <div class="hero-media">
           <img src="images/hero.jpg" alt="Hit the Gold slot" />
@@ -297,7 +340,6 @@
               Learn how the Hit the Gold slot works, what features to look for, and where to find partner casinos. This page focuses on clear info, not hype.
             </div>
 
-            <!-- SEO-safe keyword chips (not spammy, helps relevance) -->
             <div class="kws" aria-label="Keyword topics">
               <span class="kw">hit the gold slot</span>
               <span class="kw">hit the gold demo</span>
@@ -353,7 +395,7 @@
               <li><strong>Volatility:</strong> TBD</li>
               <li><strong>Mobile:</strong> Yes (responsive page + most casinos support mobile)</li>
             </ul>
-            <div class="hint">Replace the “TBD” fields only when you have verified specs (keeps trust + avoids mistakes).</div>
+            <div class="hint">Replace “TBD” only when you have verified specs (keeps trust + avoids mistakes).</div>
           </div>
         </details>
       </div>
@@ -370,10 +412,30 @@
               <em>“hit the gold slot”</em>, <em>“hit the gold demo”</em>, or <em>“hit the gold RTP”</em>, this page is designed as a simple starting point.
             </p>
 
-            <div class="img-slot" aria-label="Main screenshot placeholder">
-              <!-- Optional image: uncomment the line below after you add images/main.jpg -->
-              <!-- <img src="images/main.jpg" alt="Hit the Gold slot screenshot"> -->
-              <span>images/main.jpg (add later)</span>
+            <!-- MAIN IMAGE (enabled + fallback) -->
+            <div class="img-slot" aria-label="Main screenshot">
+              <img
+                src="images/main.jpg"
+                alt="Hit the Gold slot screenshot"
+                loading="lazy"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+              />
+              <div class="img-fallback">Image not found: <strong>images/main.jpg</strong></div>
+            </div>
+
+            <!-- AUTHOR BOX -->
+            <div class="author-box" aria-label="About the author">
+              <img src="images/author.jpg" alt="Author" loading="lazy" onerror="this.style.display='none';" />
+              <div>
+                <div class="author-name">Editorial Team</div>
+                <div class="author-meta">
+                  Updated: <time id="updatedDate" datetime=""></time> • Informational guide • 18+ only
+                </div>
+                <div class="author-text">
+                  We publish neutral slot guides and avoid hype: no guarantees, no “easy money” claims. When official game specs (RTP, volatility, max win)
+                  are confirmed from reliable sources, we update the key facts table and feature notes.
+                </div>
+              </div>
             </div>
 
             <h2 id="howto">How to Play Hit the Gold (simple steps)</h2>
@@ -416,7 +478,7 @@
             <h2 id="rtp">Hit the Gold RTP & Volatility</h2>
             <p>
               Queries like <strong>“Hit the Gold RTP”</strong> and <strong>“Hit the Gold volatility”</strong> are common. If you don’t have verified values yet,
-              leave them as “TBD” (or remove the numbers entirely) rather than guessing. You can still explain what they mean:
+              leave them as “TBD” rather than guessing. You can still explain what they mean:
             </p>
 
             <div class="table-wrap" role="region" aria-label="RTP and game facts table">
@@ -479,103 +541,102 @@
             <div class="side-title">Partner casinos</div>
             <div class="offer-list" id="offers-list">
 
-              <!-- Put logos into /images/offers/ with the names below -->
               <div class="offer">
                 <img src="images/offers/turbowins.png" alt="TurboWins logo" />
                 <div class="meta">
-                  <div class="name">TurboWins</div>
+                  <div class="name">TurboWins Bonus +200% - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/BzdVdW" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/luckyblock.png" alt="Luckyblock logo" />
                 <div class="meta">
-                  <div class="name">Luckyblock</div>
+                  <div class="name">Luckyblock Bonus +200 % - 25.000 $ + 50 FS</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/MB2WsP" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/cat-spins.png" alt="Cat Spins logo" />
                 <div class="meta">
-                  <div class="name">Cat Spins</div>
+                  <div class="name">Cat Spins Bonus +200 % - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/dPxbtL" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/samba-slots.png" alt="Samba Slots logo" />
                 <div class="meta">
-                  <div class="name">Samba Slots</div>
+                  <div class="name">Samba Slots Bonus +200 % - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/x8DRcm" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/golden-panda.png" alt="Golden Panda logo" />
                 <div class="meta">
-                  <div class="name">Golden Panda</div>
+                  <div class="name">Golden Panda Bonus +200 % - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/9RD3GK" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/ally-spin.png" alt="Ally Spin logo" />
                 <div class="meta">
-                  <div class="name">Ally Spin</div>
+                  <div class="name">Ally Spin Bonus €200 - 150 FS</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/TR3wnt" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/legiano.png" alt="Legiano logo" />
                 <div class="meta">
-                  <div class="name">Legiano</div>
+                  <div class="name">Legiano Bonus €200 - 150 FS</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/XncjTJ" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/klikki-kasino.png" alt="Klikki Kasino logo" />
                 <div class="meta">
-                  <div class="name">Klikki Kasino</div>
+                  <div class="name">Klikki Kasino Bonus +200 % - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/Rc2rrV" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/coincasino.png" alt="CoinCasino logo" />
                 <div class="meta">
-                  <div class="name">CoinCasino</div>
+                  <div class="name">CoinCasino Bonus +200 % - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/PT4SJx" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/instantcasino.png" alt="InstantCasino logo" />
                 <div class="meta">
-                  <div class="name">InstantCasino</div>
+                  <div class="name">InstantCasino Bonus +200 % - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/mnt6C3" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
               <div class="offer">
                 <img src="images/offers/fast-slots.png" alt="Fast Slots logo" />
                 <div class="meta">
-                  <div class="name">Fast Slots</div>
+                  <div class="name">Fast Slots Bonus +200 % - €5000</div>
                   <div class="desc">Partner offer (18+). Add a short, factual description later.</div>
-                  <div class="action"><a class="btn primary" href="#" rel="nofollow noopener">View offer</a></div>
+                  <div class="action"><a class="btn primary" href="https://chicken-road-app.net/t8HVBt" rel="nofollow noopener">View offer</a></div>
                 </div>
               </div>
 
@@ -647,40 +708,55 @@
             <img src="images/logo.png" alt="Hit the Gold" />
             <span>Hit the Gold</span>
           </div>
+
           <p style="margin-top:10px;">
             © <span id="y"></span> hit-the-gold.com • 18+ only • Informational content • Play responsibly.
           </p>
-          <p style="font-size:12px;color:rgba(255,255,255,.55);">
+
+          <div class="footer-links" aria-label="Legal links">
+            <a href="/privacy-policy.html" rel="nofollow">Privacy Policy</a>
+            <span class="dot">•</span>
+            <a href="/terms.html" rel="nofollow">Terms</a>
+            <span class="dot">•</span>
+            <a href="/responsible-gaming.html" rel="nofollow">Responsible Gaming</a>
+            <span class="dot">•</span>
+            <a href="/disclaimer.html" rel="nofollow">Disclaimer</a>
+          </div>
+
+          <p style="font-size:12px;color:rgba(255,255,255,.55);margin-top:10px;">
             This website may list partner casinos. Always check local laws and operator terms. No outcomes are guaranteed.
           </p>
         </div>
 
-        <div>
-          <div style="font-weight:900;margin-bottom:10px;">Responsible gaming</div>
-          <div class="logos" aria-label="Responsible gaming logos placeholders">
-            <div class="logo-ph">18+</div>
-            <div class="logo-ph">BeGamble</div>
-            <div class="logo-ph">GamCare</div>
-            <div class="logo-ph">Gamban</div>
-            <div class="logo-ph">BetBlocker</div>
-          </div>
-          <div class="hint" style="margin-top:10px;">
-            Optional footer images (add later):
-            <ul>
-              <li><code>images/footer-18plus.png</code></li>
-              <li><code>images/footer-begambleaware.png</code></li>
-              <li><code>images/footer-gamcare.png</code></li>
-              <li><code>images/footer-gamban.png</code></li>
-              <li><code>images/footer-betblocker.png</code></li>
-            </ul>
-          </div>
+        <div class="logos" aria-label="Responsible gaming logos">
+  <img src="images/footer-18plus.png" alt="18+ only" height="34"
+       onerror="this.style.display='none'">
+  <img src="images/footer-begambleaware.png" alt="BeGambleAware" height="34"
+       onerror="this.style.display='none'">
+  <img src="images/footer-gamcare.png" alt="GamCare" height="34"
+       onerror="this.style.display='none'">
+  <img src="images/footer-gamban.png" alt="Gamban" height="34"
+       onerror="this.style.display='none'">
+  <img src="images/footer-betblocker.png" alt="BetBlocker" height="34"
+       onerror="this.style.display='none'">
+</div>
         </div>
       </div>
     </div>
   </footer>
 
   <script>
+    // Year (works for 2026 and beyond)
     document.getElementById('y').textContent = new Date().getFullYear();
+
+    // Updated date in author box
+    const d = new Date();
+    const iso = d.toISOString().slice(0,10);
+    const el = document.getElementById('updatedDate');
+    if (el) {
+      el.textContent = iso;
+      el.setAttribute('datetime', iso);
+    }
   </script>
 </body>
 </html>
