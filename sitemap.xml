@@ -9,35 +9,8 @@
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://hit-the-gold.com/privacy-policy</loc>
-    <lastmod>2026-01-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://hit-the-gold.com/terms</loc>
-    <lastmod>2026-01-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
-  <url>
-    <loc>https://hit-the-gold.com/responsible-gaming</loc>
-    <lastmod>2026-01-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc>https://hit-the-gold.com/disclaimer</loc>
-    <lastmod>2026-01-04</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.2</priority>
-  </url>
-
 </urlset>
+
 
 
 
